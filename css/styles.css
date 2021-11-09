@@ -10,12 +10,16 @@
     --cc-w-: hsl(0, 0%, 100%); /* White */
 
     /* Font Family */
-    --ff-s-r-400: 'Spartan', sans-serif; font-weight: 400; /* Regular 400 */
-    --ff-s-m-500: 'Spartan', sans-serif; font-weight: 500; /* Medium 500 */
-    --ff-s-b-700: 'Spartan', sans-serif; font-weight: 700; /* Bold 700 */
+    --ff-400-: 'Spartan', sans-serif; font-weight: 400;  /* Regular 400 */
+    --ff-500-: 'Spartan', sans-serif; font-weight: 500; /* Medium 500 */
+    --ff-700-: 'Spartan', sans-serif; font-weight: 700; /* Bold 700 */
 }
 
 /* Responsive Design - Mobile 360x780 */
+
+p {
+    font-family: var(--ff-400-);
+}
 
 /* Responsive Design - Tablet 1024x1366 */
 
