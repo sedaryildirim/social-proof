@@ -97,13 +97,13 @@ body {
     border-radius: 100px;
 }
 
-h3 {
+h2 {
     font-family: var(--ff-400-);
     font-weight: 500;
     color: var(--cc-l-g-m-);
 }
 
-h4 {
+h3 {
     font-family: var(--ff-400-);
     font-weight: 500;
     color: var(--cc-s-p-);
