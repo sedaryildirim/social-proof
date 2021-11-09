@@ -143,6 +143,7 @@ h4 {
         background-image: url('../images/bg-pattern-top-desktop.svg'), url('../images/bg-pattern-bottom-desktop.svg');
         background-position: top left, bottom right;
         background-repeat: no-repeat;
+        height: 100vh;
     }
     .user-wrapper {
         margin-left: 15rem;

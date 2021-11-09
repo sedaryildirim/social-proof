@@ -16,8 +16,6 @@ This is a solution to the [Social proof section challenge on Frontend Mentor](ht
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -28,36 +26,51 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./images/mobile_ss.jpg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Repo](https://github.com/sedaryildirim/social-proof)
+- Live Site URL: [Live Site](https://sedaryildirim.github.io/social-proof/)
 
 ## My process
 
 ### Built with
 
-- Semantic HTML5 markup
+- HTML5
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- Mobile-first workflow
+- Mobile-first workflow with Sizzy
 
 ### What I learned
 
+Better understanding of positioning items, flexbox and css grid use along with better understanding of workflows / mobile first and best sizes to use @media queries. site should be responsive from 360x780 to 2560x1440
+
 ### Continued development
+
+Have to figure out why the grey review boxes couldnt be aligned in stagger affect. last issue to fix.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+[Kevin Powell](https://www.youtube.com/KevinPowell) - HTML & CSS tutorirals
+[Net Ninja](https://www.youtube.com/thenetninja) - HTML, CSS & JS tutorirals
+[Malven.Co](https://flexbox.malven.co/) - Flexbox Cheatsheet
+[Malven.Co](https://grid.malven.co/) - Grid Cheatsheet
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Github - [Sedar Yildirim](https://github.com/sedaryildirim)
+- Frontend Mentor - [@sedaryildirim](https://www.frontendmentor.io/profile/sedaryildirim)
 
 ## Acknowledgments
 
+[Frontendmentor.io](https://www.frontendmentor.io/)
+
+[Kevin Powell](https://www.youtube.com/KevinPowell)
+
+[Net Ninja](https://www.youtube.com/thenetninja)
+
+[Malven.Co](https://flexbox.malven.co/) 
+
+[Malven.Co](https://grid.malven.co/)
