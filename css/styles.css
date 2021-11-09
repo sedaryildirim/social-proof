@@ -145,6 +145,12 @@ h4 {
         margin-left: 15rem;
         margin-right: 15rem;
     }
+
+    .cta-section {
+        text-align: center;
+        padding-left: 10rem;
+        padding-right: 10rem;
+    }
 }
 
 /* Responsive Design - Desktop 1920x1080 */
@@ -179,7 +185,7 @@ body {
 
 .reviews-section {
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
 }
 
 .user-wrapper {
@@ -187,13 +193,19 @@ body {
     margin: 1rem;
 }
 
+.user-wrapper-colton {
+    align-self: flex-start;
+}
+
 .user-wrapper-irene {
-    margin-top: 2rem;
+margin-top: 4rem;
+align-self: flex-start;
 
 }
 
 .user-wrapper-anne {
-    margin-top: 4rem;
+    margin-top: 8rem;
+    align-self: flex-start;
 
 }
 
