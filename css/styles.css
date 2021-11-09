@@ -11,16 +11,87 @@
 
     /* Font Family */
     --ff-400-: 'Spartan', sans-serif; font-weight: 400;  /* Regular 400 */
-    --ff-500-: 'Spartan', sans-serif; font-weight: 500; /* Medium 500 */
-    --ff-700-: 'Spartan', sans-serif; font-weight: 700; /* Bold 700 */
+    /* --ff-500-: 'Spartan', sans-serif; font-weight: 500; /* Medium 500 */
+    /* --ff-700-: 'Spartan', sans-serif; font-weight: 700; /* Bold 700 */
 }
 
 /* Responsive Design - Mobile 360x780 */
 
-p {
-    font-family: var(--ff-400-);
+main {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../images/bg-pattern-top-mobile.svg'), url('../images/bg-pattern-bottom-mobile.svg');
+    background-position: top, bottom;
+    background-repeat: no-repeat;
 }
 
+.title-section {
+    font-family: var(--ff-400-);
+    font-weight: 700;
+    color: var(--cc-v-d-m-);
+}
+
+.cta-section {
+    font-family: var(--ff-400-);
+    font-weight: 400;
+    color: var(--cc-d-g-m-);
+}
+
+.ratings-section {
+    font-family: var(--ff-400-);
+    font-weight: 700;
+    color: var(--cc-v-d-m-);
+}
+
+li {
+    display: grid;
+    display: inline-grid;
+    list-style: none;
+    content: url('../images/icon-star.svg');
+}
+
+.colton-user-img {
+    content: url('../images/image-colton.jpg');
+    border-radius: 100px;
+}
+
+.irene-user-img {
+ content: url('../images/image-irene.jpg');
+ border-radius: 100px;  
+}
+
+.anne-user-img {
+    content: url('../images/image-anne.jpg');
+    border-radius: 100px;
+}
+
+h3 {
+    font-family: var(--ff-400-);
+    font-weight: 500;
+    color: var(--cc-l-g-m-);
+}
+
+h4 {
+    font-family: var(--ff-400-);
+    font-weight: 500;
+    color: var(--cc-s-p-);
+}
+
+p {
+    font-family: var(--ff-400-);
+    font-weight: 400;
+    color: var(--cc-d-g-m-);
+}
+
+.user-wrapper {
+    background-color: var(--cc-v-d-m-);
+    border-radius: 10px;
+ 
+}
 /* Responsive Design - Tablet 1024x1366 */
 
 /* Responsive Design - Desktop 1920x1080 */
