@@ -8,7 +8,7 @@
     --cc-d-g-m-: hsl(303, 10%, 53%); /* Dark Grayish Magenta */
     --cc-l-g-m-: hsl(300, 24%, 96%); /* Light Grayish Magenta */
     --cc-w-: hsl(0, 0%, 100%); /* White */
-
+    
     /* Font Family */
     --ff-400-: 'Spartan', sans-serif; font-weight: 400;  /* Regular 400 */
     /* --ff-500-: 'Spartan', sans-serif; font-weight: 500; /* Medium 500 */
@@ -60,8 +60,8 @@ li {
 }
 
 .irene-user-img {
- content: url('../images/image-irene.jpg');
- border-radius: 100px;  
+    content: url('../images/image-irene.jpg');
+    border-radius: 100px;  
 }
 
 .anne-user-img {
@@ -90,7 +90,7 @@ p {
 .user-wrapper {
     background-color: var(--cc-v-d-m-);
     border-radius: 10px;
- 
+    
 }
 /* Responsive Design - Tablet 1024x1366 */
 
