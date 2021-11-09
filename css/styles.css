@@ -55,7 +55,7 @@ main {
     font-family: var(--ff-400-);
     font-weight: 700;
     color: var(--cc-v-d-m-);
-    display: grid;
+    /* display: grid; */
 }
 
 .icon-star {
@@ -140,12 +140,12 @@ h4 {
         margin-left: 15rem;
         margin-right: 15rem;
     }
-
+    
     .review-score-bg {
         margin-left: 15rem;
         margin-right: 15rem;
     }
-
+    
     .cta-section {
         text-align: center;
         padding-left: 10rem;
@@ -155,60 +155,104 @@ h4 {
 
 /* Responsive Design - Desktop 1920x1080 */
 
-@media (min-width: 1920px){
-
-body {
-    background-image: url('../images/bg-pattern-top-desktop.svg'), url('../images/bg-pattern-bottom-desktop.svg');
-    background-position: top, bottom;
-    background-repeat: no-repeat;
-}
+@media (min-width: 1920px) {
     
-.desktop-wrapper-top-main {
-    display: flex;
-    flex-direction: row;
-}
-
-.title-section {
-    text-align: left;
-    font-weight: 700;
-    font-size: 3rem;
-    padding-top: 15rem;
-    padding-left: 15rem;
-    padding-right: 20rem;
-}
-
-.cta-section {
-    text-align: left;
-    padding-left: 15rem;
-    padding-right: 15rem;
-}
-
-.reviews-section {
-    display: flex;
-    /* flex-direction: row; */
-}
-
-.user-wrapper {
-    width: 22rem;
-    margin: 1rem;
-}
-
-.user-wrapper-colton {
-    align-self: flex-start;
-}
-
-.user-wrapper-irene {
-margin-top: 4rem;
-align-self: flex-start;
-
-}
-
-.user-wrapper-anne {
-    margin-top: 8rem;
-    align-self: flex-start;
-
-}
-
+    body {
+        background-image: url('../images/bg-pattern-top-desktop.svg'), url('../images/bg-pattern-bottom-desktop.svg');
+        background-position: top, bottom;
+        background-repeat: no-repeat;
+    }
+    
+    .desktop-wrapper-top-main {
+        display: grid;
+        grid-auto-flow: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        padding-top: 6rem;
+        padding-right: 10rem;
+    }
+    
+    .title-section {
+        text-align: left;
+        font-weight: 700;
+        font-size: 3rem;
+        padding-left: 20rem;
+        padding-right: 10rem;
+    }
+    
+    .cta-section {
+        text-align: left;
+        padding-left: 20rem;
+        padding-right: 22rem;
+    }
+    
+    .reviews-section {
+        display: flex;
+        padding-top: 3rem;
+    }
+    
+    .user-wrapper {
+        width: 22rem;
+        margin: 1rem;
+    }
+    
+    .user-wrapper-colton {
+        align-self: flex-start;
+    }
+    
+    .user-wrapper-irene {
+        margin-top: 4rem;
+        align-self: flex-start;
+    }
+    
+    .user-wrapper-anne {
+        margin-top: 8rem;
+        align-self: flex-start;
+    }
+    
+    .icon-star {
+        margin: 0.20rem;
+        text-align: left;
+    }
+    
+    .review-score-bg {
+        display: flex;
+        align-items: center;
+        flex-wrap: nowrap;
+        margin-left: 4rem;
+        padding-right: 4rem;
+    }
+    
+    .review-score-bg > p {
+        text-align: right;
+        padding-left: 2rem;
+    }
+    
+    .review-score-bg-top {
+        margin-right: 10rem;
+    }
+    
+    .review-score-bg-middle {
+        margin-right: 10rem;
+    }
+    
+    .review-score-bg-bottom {
+        margin-right: 10rem;
+    }
 }
 
 /* Responsive Design - Desktop 2560x1440 */
+
+@media (min-width: 2560px) {
+    
+    main {
+        padding-left: 20rem;
+        padding-right: 20rem;
+        padding-top: 8rem;
+    }
+    
+    .reviews-section {
+        padding-top: 4rem;
+    };
+}
