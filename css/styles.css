@@ -140,8 +140,63 @@ h4 {
         margin-left: 15rem;
         margin-right: 15rem;
     }
+
+    .review-score-bg {
+        margin-left: 15rem;
+        margin-right: 15rem;
+    }
 }
 
 /* Responsive Design - Desktop 1920x1080 */
+
+@media (min-width: 1920px){
+
+body {
+    background-image: url('../images/bg-pattern-top-desktop.svg'), url('../images/bg-pattern-bottom-desktop.svg');
+    background-position: top, bottom;
+    background-repeat: no-repeat;
+}
+    
+.desktop-wrapper-top-main {
+    display: flex;
+    flex-direction: row;
+}
+
+.title-section {
+    text-align: left;
+    font-weight: 700;
+    font-size: 3rem;
+    padding-top: 15rem;
+    padding-left: 15rem;
+    padding-right: 20rem;
+}
+
+.cta-section {
+    text-align: left;
+    padding-left: 15rem;
+    padding-right: 15rem;
+}
+
+.reviews-section {
+    display: flex;
+    flex-direction: row;
+}
+
+.user-wrapper {
+    width: 22rem;
+    margin: 1rem;
+}
+
+.user-wrapper-irene {
+    margin-top: 2rem;
+
+}
+
+.user-wrapper-anne {
+    margin-top: 4rem;
+
+}
+
+}
 
 /* Responsive Design - Desktop 2560x1440 */
