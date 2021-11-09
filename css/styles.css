@@ -17,6 +17,11 @@
 
 /* Responsive Design - Mobile 360x780 */
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 main {
     margin: 0px;
     padding: 0px;
@@ -33,25 +38,45 @@ main {
     font-family: var(--ff-400-);
     font-weight: 700;
     color: var(--cc-v-d-m-);
+    text-align: center;
+    padding: 4rem 3rem 1rem 3rem;
 }
 
 .cta-section {
     font-family: var(--ff-400-);
     font-weight: 400;
     color: var(--cc-d-g-m-);
+    text-align: center;
+    padding: 1rem 1rem 1rem 1rem;
+    font-size: 1rem;
 }
 
 .ratings-section {
     font-family: var(--ff-400-);
     font-weight: 700;
     color: var(--cc-v-d-m-);
+    display: grid;
 }
 
-li {
+.icon-star {
     display: grid;
     display: inline-grid;
     list-style: none;
     content: url('../images/icon-star.svg');
+}
+
+.review-score-bg {
+    background-color: var(--cc-l-g-m-);
+    border-radius: 10px;
+    padding: 1rem 2rem 1rem 2rem;
+    margin: 1rem;
+    font-family: var(--ff-400-);
+    font-weight: 500;
+    font-size: 1rem;
+    text-align: center;
+    color: var(--cc-v-d-m-);
+    font-weight: bold;
+    line-height: 2rem;
 }
 
 .colton-user-img {
@@ -81,18 +106,41 @@ h4 {
     color: var(--cc-s-p-);
 }
 
-p {
+.user-wrapper {
+    background-color: var(--cc-v-d-m-);
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin: 1.5rem;
+    text-align: center;
+}
+
+.user-wrapper > p {
     font-family: var(--ff-400-);
     font-weight: 400;
     color: var(--cc-d-g-m-);
 }
 
-.user-wrapper {
-    background-color: var(--cc-v-d-m-);
-    border-radius: 10px;
-    
+.layout-container {
+    display: flex;
+    align-items: center;
+    padding-bottom: 2rem;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    text-align: left;
+}
+
+.right-side-container {
+    padding-left: 1rem;
 }
 /* Responsive Design - Tablet 1024x1366 */
+
+@media (min-width: 1024px)
+{
+    .user-wrapper {
+        margin-left: 15rem;
+        margin-right: 15rem;
+    }
+}
 
 /* Responsive Design - Desktop 1920x1080 */
 
